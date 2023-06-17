@@ -1,0 +1,9 @@
+spring:
+  security:
+    oauth2:
+      jwt:
+        signingKey: 123456
+gate:
+  ignore:
+    authentication:
+      startWith: /oauth,/open,/v2/api-docs,/user/login,/course,/ad,/pay,/doc.html,/webjars,/swagger,/pay/wxCallback,/pay/zfbCallback,/user/vfcode,/user/refresh_token,/weixin,/comment,/permission/getUserPermissions
